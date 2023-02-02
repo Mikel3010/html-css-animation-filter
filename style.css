@@ -64,6 +64,11 @@
 .ex-7-img:hover{
     filter: grayscale(1) drop-shadow(30px 10px 5px black);
 }
+
+.ex-8-img:hover{
+    border-radius: 20px;
+    filter: saturate(0.2) brightness(0.50);
+}
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
