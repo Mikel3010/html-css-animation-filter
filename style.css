@@ -69,9 +69,16 @@
     border-radius: 20px;
     filter: saturate(0.2) brightness(0.50);
 }
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 3s;
+}
+.ex-9-img:hover{
+    transform: scale(1.5);
+    filter: contrast(1.5) grayscale(1);
+    border-radius: 20px;
 }
 .ex-10-icon {
     font-size: 60px;
